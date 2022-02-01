@@ -21,6 +21,7 @@ public class PersonUtils {
                 .cpf(CPF_NUMBER)
                 .birthDate("04-04-2010")
                 .phones(Collections.singletonList(PhoneUtils.createFakeDTO()))
+                .addresses(Collections.singletonList(AddressUtils.createFakeDTO()))
                 .build();
     }
 
@@ -32,6 +33,7 @@ public class PersonUtils {
                 .cpf(CPF_NUMBER)
                 .birthDate(BIRTH_DATE)
                 .phones(Collections.singletonList(PhoneUtils.createFakeEntity()))
+                .addresses(Collections.singletonList(AddressUtils.createFakeEntity()))
                 .build();
     }
 }
